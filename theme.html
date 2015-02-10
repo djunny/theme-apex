@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>
-      {% if is_login %}Login
+      {% if is_login %}登录
       {% elif is_home %}{{ site.author }}
       {% elif is_tag %}{{ tag }}
       {% elif post %}{{ post.title }}
@@ -16,7 +16,7 @@
     <link rel="stylesheet" type="text/css" href="{{ assets('css/style.css') }}">
 
     <!--[if IE 7]>
-      <link href="http://postach.io/static/themes/_assets/fontawesome/css/font-awesome-ie7.min.css" rel="stylesheet">
+      <link href="//libs.baidu.com/fontawesome/4.0.3/css/font-awesome.min.css" rel="stylesheet">
     <![endif]-->
 
     <!--
@@ -159,7 +159,7 @@
           </div>
           {% endif %}
           {% else %}
-          <h4 class="sub-heading span6">No Posts Yet :(</h4>
+          <h4 class="sub-heading span6">作者还木有任何 Post~ :(</h4>
           {% endif %}
       </div>
 
@@ -240,7 +240,7 @@
     {{ footer_meta }}
 
     <!-- bootstrap -->
-    <script src="http://postach.io/static/themes/_assets/bootstrap/js/bootstrap.min.js" /></script>
+    <script src="http://libs.baidu.com/bootstrap/2.3.1/js/bootstrap.min.js" /></script>
     
   </body>
 </html>
